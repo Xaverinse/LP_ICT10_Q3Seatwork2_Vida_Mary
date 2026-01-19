@@ -63,6 +63,8 @@ def get_team(event):
         document.getElementById("team_name").innerText = "You are a Red Bulldog!"
         document.getElementById("team_img").src = "red.png"
     else:
-        document.getElementById("team_name").innerText = "You are a very super secret special case. Congradulations, but you have been chosen to be excempted from the intrams for being too unlucky or because I forgot how to fix my code"
+        document.getElementById("team_name").innerText = "WHAT IS YOUR GRADE AND SECTION LIL BRO!!! You cannot escape intrams... NOW! Tell me what grade and section you are."
+        document.getElementById("team_img").src = "test.png"
+
 
 
