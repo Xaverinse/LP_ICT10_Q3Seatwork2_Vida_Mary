@@ -13,6 +13,7 @@ def get_team(event):
     # Determine Team Name
     if document.querySelector('input[name="regis"]:checked').value == "No" and document.querySelector('input[name="medcert"]:checked').value == "No":
         document.getElementById("team_name").innerText = ("Please continue your online registration and/or submit your medical certificate to join a team.")
+        document.getElementById("team_img").src = "test.png"
     elif document.getElementById("grade").value == "g7" and document.getElementById("section").value == "Sapphire":
         document.getElementById("team_name").innerText = "You are a Blue Bear!"
         document.getElementById("team_img").src = "blue.png"
@@ -63,4 +64,5 @@ def get_team(event):
         document.getElementById("team_img").src = "red.png"
     else:
         document.getElementById("team_name").innerText = "You are a very super secret special case. Congradulations, but you have been chosen to be excempted from the intrams for being too unlucky or because I forgot how to fix my code"
+
 
